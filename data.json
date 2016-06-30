@@ -1,0 +1,52 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"id": 0,
+			"geometry":
+			{
+				"type": "Point",
+				"coordinates": [55.531494, 28.659734]
+			},
+			"properties":
+			{
+				"balloonContentHeader": "Кафе Quick Coffee",
+				"balloonContentBody": "г. Новополоцк, ул. Калинина 5А",
+				"clusterCaption": "Еще одна метка",
+				"hintContent": "Кафе Quick Coffee"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": 1,
+			"geometry":
+			{
+				"type": "Point",
+				"coordinates": [55.51354, 28.68283]
+			},
+			"properties":
+			{
+				"balloonContentHeader": "Торговый объект QUICK COFFEE",
+				"balloonContentBody": "г. Новополоцк, ул. Нефтяников, д. 6 ТЦ Зодиак",
+				"clusterCaption": "Еще одна метка",
+				"hintContent": "Торговый объект QUICK COFFEE"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": 2,
+			"geometry":
+			{
+				"type": "Point",
+				"coordinates": [55.485173, 28.777494]},
+			"properties":
+			{
+				"balloonContentHeader": "Кафе QUICK COFFEE",
+				"balloonContentBody": "г. Полоцк, пр-т Ф. Скорины, д. 13",
+				"clusterCaption": "Еще одна метка",
+				"hintContent": "Кафе QUICK COFFEE"
+			}
+		}
+	]
+}

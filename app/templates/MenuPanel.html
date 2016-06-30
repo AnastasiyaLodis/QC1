@@ -1,0 +1,99 @@
+<div class="container-fluid menu">
+    <div class="row shadow1">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 coffee">
+            <table class="table-condensed">
+                <thead>
+                <tr>
+                    <th class="headstyle">КОФЕ</th>
+                    <th class="tablestyle">ОБЪЕМ,МЛ</th>
+                    <th class="tablestyle">ЦЕНА</th>
+                    <th class="tablestyle">ОБЪЕМ,МЛ</th>
+                    <th class="tablestyle">ЦЕНА</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="cof in menu.coffee">
+                <tr>
+                    <td class="tablestyle">{{cof.nazv}}</td>
+                    <td class="tablestyle">{{cof.minml}}</td>
+                    <td class="tablestyle">{{cof.pricemin}}</td>
+                    <td class="tablestyle">{{cof.maxml}}</td>
+                    <td class="tablestyle">{{cof.pricemax}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 sand">
+            <table class="table-condensed">
+                <thead>
+                <tr>
+                    <th class="headstyle">БУТЕРБРОДЫ</th>
+                    <th class="tablestyle">ВЕС,ГР</th>
+                    <th class="tablestyle">ЦЕНА</th>
+                    <th class="tablestyle">ВЕС,ГР</th>
+                    <th class="tablestyle">ЦЕНА</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="sand in menu.sandwich">
+                <tr>
+                    <td class="tablestyle">{{sand.nazv}}</td>
+                    <td class="tablestyle">{{sand.mingr}}</td>
+                    <td class="tablestyle">{{sand.minprice}}</td>
+                    <td class="tablestyle">{{sand.gr}}</td>
+                    <td class="tablestyle">{{sand.price}}</td>
+                </tr>
+                </tbody>
+                <thead>
+                <tr>
+                    <th colspan="6" class="headstyle">ЧАЙ</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="te in menu.tea">
+                <tr>
+                    <td class="tablestyle">{{te.name}}</td>
+                    <td class="tablestyle">{{te.minml}}</td>
+                    <td class="tablestyle">{{te.minprice}}</td>
+                    <td class="tablestyle">{{te.ml}}</td>
+                    <td class="tablestyle">{{te.price}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 salad">
+            <table class="table-condensed">
+                <thead>
+                <tr>
+                    <th class="headstyle">ДЕСЕРТЫ</th>
+                    <th class="tablestyle">ВЕС,ГР</th>
+                    <th class="tablestyle">ЦЕНА</th>
+                    <th class="tablestyle">ВЕС,ГР</th>
+                    <th class="tablestyle">ЦЕНА</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="des in menu.dessert">
+                <tr>
+                    <td class="tablestyle">{{des.name}}</td>
+                    <td class="tablestyle">{{des.mingr}}</td>
+                    <td class="tablestyle">{{des.minprice}}</td>
+                    <td class="tablestyle">{{des.gr}}</td>
+                    <td class="tablestyle">{{des.price}}</td>
+                </tr>
+                </tbody>
+                <tbody>
+                <thead>
+                <tr>
+                    <th colspan="6" class="headstyle">САЛАТЫ</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="sal in menu.salad">
+                <tr>
+                    <td class="tablestyle">{{sal.name}}</td>
+                    <td class="tablestyle">{{sal.mingr}}</td>
+                    <td class="tablestyle">{{sal.minprice}}</td>
+                    <td class="tablestyle">{{sal.gr}}</td>
+                    <td class="tablestyle">{{sal.price}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
